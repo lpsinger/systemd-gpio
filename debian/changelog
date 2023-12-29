@@ -1,0 +1,5 @@
+systemd-gpio (0.0.1~pre1) unstable; urgency=medium
+
+  * Initial prerelease.
+
+ -- Leo Singer <leo.singer@ligo.org>  Thu, 28 Dec 2023 19:44:36 -0500
