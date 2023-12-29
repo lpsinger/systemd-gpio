@@ -1,0 +1,15 @@
+name: Build Debian package
+on:
+  push:
+    branches:
+      - debian
+  pull_request:
+    branches:
+      - debian
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jtdor/build-deb-action@v1
+        with:
+          buildpackage-opts: --build=binary --no-sign
