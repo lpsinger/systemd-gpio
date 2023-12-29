@@ -13,3 +13,4 @@ jobs:
       - uses: jtdor/build-deb-action@v1
         with:
           buildpackage-opts: --build=binary --no-sign
+          source-dir: ${{ github.workspace }}
